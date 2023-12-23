@@ -44,5 +44,3 @@ poetry shell
 # Run Django migrations and start the development server
 poetry run python manage.py migrate
 nohup poetry run python manage.py runserver 0.0.0.0:8000 & 
-
-
